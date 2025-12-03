@@ -1,21 +1,21 @@
 import React from "react";
 
 const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "React Native",
-  "React Router",
-  "Redux",
-  "Next.js",
-  "TypeScript",
-  "Tailwind CSS",
-  "Bootstrap",
-  "Git & GitHub",
-  "Responsive Design",
-  "REST APIs",
-  "Aws lambda",
+  { name: "HTML", rating: 5 },
+  { name: "CSS", rating: 5 },
+  { name: "JavaScript", rating: 5 },
+  { name: "React", rating: 5 },
+  { name: "React Native", rating: 4 },
+  { name: "React Router", rating: 4 },
+  { name: "Redux", rating: 4 },
+  { name: "Next.js", rating: 4 },
+  { name: "TypeScript", rating: 4 },
+  { name: "Tailwind CSS", rating: 4 },
+  { name: "Bootstrap", rating: 5 },
+  { name: "Git & GitHub", rating: 5 },
+  { name: "Responsive Design", rating: 5 },
+  { name: "REST APIs", rating: 4 },
+  { name: "Aws lambda", rating: 3 },
 ];
 
 const Skills = () => {
@@ -28,11 +28,22 @@ const Skills = () => {
         </p>
         <div className="row g-4">
           {skills.map((skill) => (
-            <div className="col-6 col-md-4 col-lg-3" key={skill}>
+            <div className="col-6 col-md-4 col-lg-3" key={skill.name}>
               <div className="card skill-card card-hover h-100 border-0 text-center">
                 <div className="card-body d-flex flex-column justify-content-center">
-                  <span className="skill-icon mb-2">★</span>
-                  <h5 className="card-title mb-0">{skill}</h5>
+                  <h5 className="card-title mb-2">{skill.name}</h5>
+
+                  {/* ⭐ Star Rating */}
+                  <div className="stars">
+                    {Array.from({ length: 5 }, (_, i) => (
+                      <span
+                        key={i}
+                        className={`star ${i < skill.rating ? "filled" : ""}`}
+                      >
+                        ★
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

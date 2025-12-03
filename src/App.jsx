@@ -11,6 +11,7 @@ import ResumeSection from "./components/ResumeSection";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import useSectionObserver from "./hooks/useSectionObserver";
+import Education from "./components/Education";
 
 const App = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -54,8 +55,9 @@ const App = () => {
           onDownloadResume={() => scrollToSection("resume")}
         />
         <About />
-        <Skills />
+        <Education />
         <Experience />
+        <Skills />
         <Projects />
         <ResumeSection />
         <Contact />
