@@ -18,6 +18,76 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* container that holds Three.js canvas + photo */
+/* .hero-3d-avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(0, 238, 255, 0.4);
+} */
+
+/* Three.js canvas
+.hero-3d-wrapper {
+  width: 100%;
+  height: 100%;
+} */
+/* .hero-3d-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(0, 238, 255, 0.4);
+  background: radial-gradient(circle at top, #020617, #000014 65%, #000000);
+} */
+
+
+/* .hero-3d-wrapper canvas {
+  width: 100% !important;
+  height: 100% !important;
+} */
+
+/* photo on top of the 3D orb */
+.hero-photo-overlay {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-3d-wrapper {
+  width: 360px;   /* big */
+  height: 360px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+
+  background: radial-gradient(circle at 20% 0%, #111827 0%, #020617 55%, #000);
+  border: 2px solid rgba(56, 189, 248, 0.8);
+
+  box-shadow:
+    0 0 70px rgba(56, 189, 248, 0.55),
+    0 0 30px rgba(15, 23, 42, 0.9);
+}
+
+.hero-3d-wrapper canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .hero-3d-wrapper {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -40,3 +110,4 @@
 .read-the-docs {
   color: #888;
 }
+

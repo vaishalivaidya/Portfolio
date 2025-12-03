@@ -9,6 +9,7 @@ const skills = [
   { name: "React Router", rating: 4 },
   { name: "Redux", rating: 4 },
   { name: "Next.js", rating: 4 },
+  { name: "Three.js", rating: 3 },
   { name: "TypeScript", rating: 4 },
   { name: "Tailwind CSS", rating: 4 },
   { name: "Bootstrap", rating: 5 },

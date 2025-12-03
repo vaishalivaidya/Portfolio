@@ -6,21 +6,21 @@ const experience = [
     company: "Delta 360 Services",
     duration: "Jan 2023 - Present",
     description:
-      "Building responsive React applications, reusable UI components, and integrating REST APIs. Collaborating closely with designers and backend developers.",
+      "Building responsive React applications with reusable UI components and smooth REST API integrations.Collaborating with designers and backend teams to deliver user‑friendly, scalable solutions.Ensuring performance, accessibility, and maintainability through modern frontend practices and code reviews.",
   },
   {
     role: "Web Developer Intern",
     company: "Delta 360 Services",
     duration: "March 2023 - Aug 2023",
     description:
-      "Worked on landing pages, portfolio sites, and small web apps using HTML, CSS, JavaScript, and Bootstrap. Focused on performance and mobile-first design.",
+      "Developed landing pages, portfolio sites, and small web apps using HTML, CSS, JavaScript, and Bootstrap. Focused on performance optimization, responsive layouts, and mobile‑first design principles to ensure accessibility across devices. Collaborated with senior developers to refine UI components and integrate interactive features. Assisted in debugging and improving usability while maintaining consistency with brand guidelines. Gained hands‑on experience with version control (Git) and agile development practices, contributing to sprint deliverables.",
   },
   {
     role: "Freelance Web Designer",
     company: "Self Employed",
     duration: "2022 - 2023",
     description:
-      "Designed and developed simple websites for local businesses and personal brands, focusing on clean UI, color palettes, and branding.",
+      "Designed and developed simple websites for local businesses and personal brands, focusing on clean UI, color palettes, and branding. Built responsive layouts optimized for mobile devices and cross‑browser compatibility. Collaborated with clients to understand their vision, translate requirements into functional designs, and deliver tailored solutions. Implemented lightweight JavaScript interactions and Bootstrap components to enhance usability. Created visually consistent themes that strengthened brand identity and improved customer engagement. Managed end‑to‑end project delivery including design, development, testing, and deployment.",
   },
 ];
 
