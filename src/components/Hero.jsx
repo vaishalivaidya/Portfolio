@@ -15,7 +15,7 @@ const Hero = ({ onViewProjects, onDownloadResume }) => {
               Frontend • React • UI
             </p> */}
             <p className="hero-badge text-secondary small letter-spacing mb-2 fw-semibold text-uppercase textcolor-white">
-              FRONTEND • REACT • UI
+              MERN Stack Developer • REACT • UI
             </p>
 
             <h1 className="display-5 fw-bold mb-3 hero-title">
