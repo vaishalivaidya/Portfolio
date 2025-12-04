@@ -25,7 +25,7 @@ const Hero = ({ onViewProjects, onDownloadResume }) => {
 
             <h2 className="h5 text-muted-hero mb-3">FullStack Developer</h2>
 
-            <p className="lead text-muted-hero mb-4">
+            <p className="lead text-muted-hero mb-4 text-align-justify">
               I build modern, responsive, and user-focused web experiences using
               React, JavaScript, and Bootstrap. I love turning creative ideas
               into beautiful interfaces that are fast, accessible, and easy to
