@@ -23,9 +23,7 @@ const Hero = ({ onViewProjects, onDownloadResume }) => {
               <span className="text-gradient">Vaishali Vaidya</span>
             </h1>
 
-            <h2 className="h5 text-muted-hero mb-3">
-              Frontend / React Developer
-            </h2>
+            <h2 className="h5 text-muted-hero mb-3">FullStack Developer</h2>
 
             <p className="lead text-muted-hero mb-4">
               I build modern, responsive, and user-focused web experiences using
