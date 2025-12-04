@@ -6,8 +6,8 @@ const projects = [
     description:
       "A personal portfolio built with React and Bootstrap to showcase my skills, experience, and projects.",
     tech: ["React", "Bootstrap", "CSS"],
-    demo: "#",
-    github: "#",
+    demo: "https://portfolio-vaishali-vaidya.vercel.app/",
+    github: "https://github.com/vaishalivaidya/Portfolio",
   },
   {
     title: "Task Manager App",

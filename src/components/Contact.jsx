@@ -86,29 +86,29 @@ const Contact = () => {
                 <p className="text-muted-hero mb-2">
                   GitHub:{" "}
                   <a
-                    href="https://github.com/your-github"
+                    href="https://github.com/vaishalivaidya/Portfolio"
                     target="_blank"
                     rel="noreferrer"
                     className="link-info"
                   >
-                    github.com/your-github
+                    vaishali vaidya Portfolio
                   </a>
                 </p>
                 <p className="text-muted-hero mb-2">
                   LinkedIn:{" "}
                   <a
-                    href="https://linkedin.com/in/your-linkedin"
+                    href="https://www.linkedin.com/in/vaishali-vaidya-19b9a8207"
                     target="_blank"
                     rel="noreferrer"
                     className="link-info"
                   >
-                    linkedin.com/in/your-linkedin
+                    linkedin.com/in/vaishali-vaidya-19b9a8207
                   </a>
                 </p>
-                <p className="text-muted-hero mt-4">
+                {/* <p className="text-muted-hero mt-4">
                   Update these links to your actual profiles so people can
                   easily connect with you.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

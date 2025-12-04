@@ -554,3 +554,23 @@ footer {
     height: 130px;
   }
 }
+@media (max-width: 767.98px) {
+  .hero-orbit {
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero-avatar {
+    width: 130px;
+    height: 130px;
+  }
+
+  /* 🔽 move badge down on mobile */
+  .hero-badge {
+    position: static;      /* no longer stuck to the top */
+    margin-top: 0.75rem;   /* space under your name */
+    display: block;
+    text-align: left;      /* or center if you prefer */
+  }
+}
+
