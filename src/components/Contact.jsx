@@ -79,8 +79,8 @@ const Contact = () => {
                 <h5 className="mb-3">Contact Info</h5>
                 <p className="text-muted-hero mb-2">
                   Email:{" "}
-                  <a href="vaidya.vaishali2023@gmail.com" className="link-info">
-                    vaidya.vaishali2023@gmail.com
+                  <a href="vaishali.vaidya2023@gmail.com" className="link-info">
+                    vaishali.vaidya2023@gmail.com
                   </a>
                 </p>
                 <p className="text-muted-hero mb-2">
