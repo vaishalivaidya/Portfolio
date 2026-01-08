@@ -10,7 +10,7 @@ const ResumeSection = () => {
           skills, and projects.
         </p>
         <a
-          href="../assets/vaishali_Resume.docx"
+          href="../assets/Vaishali_Resume"
           className="btn btn-info btn-lg btn-glow d-inline-flex align-items-center gap-2"
           download
         >
