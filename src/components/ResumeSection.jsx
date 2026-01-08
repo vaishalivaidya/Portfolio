@@ -1,5 +1,5 @@
 import React from "react";
-
+import resumeFile from "../assets/Vaishali_Resume.pdf";
 
 
 const ResumeSection = () => {
@@ -12,7 +12,7 @@ const ResumeSection = () => {
           skills, and projects.
         </p>
         <a
-          href="/Vaishali_Resume.pdf"
+          href={resumeFile}
           className="btn btn-info btn-lg btn-glow d-inline-flex align-items-center gap-2"
           download
         >
