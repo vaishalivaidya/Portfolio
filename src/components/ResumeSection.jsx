@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 const ResumeSection = () => {
   return (
     <section id="resume" className="reveal-section py-5 bg-dark-2">
@@ -10,7 +12,7 @@ const ResumeSection = () => {
           skills, and projects.
         </p>
         <a
-          href="../assets/Vaishali_Resume"
+          href="/Vaishali_Resume.pdf"
           className="btn btn-info btn-lg btn-glow d-inline-flex align-items-center gap-2"
           download
         >
