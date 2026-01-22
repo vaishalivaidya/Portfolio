@@ -3,14 +3,14 @@ import React from "react";
 const experience = [
   {
     role: "Frontend Developer",
-    company: "Delta 360 Services PVT LTD  ",
+    company: "ONSPEC TECHNOLOGY SOLUTIONS PVT LTD  ",
     duration: "Jan 2023 - Present",
     description:
       "Building responsive React applications with reusable UI components and smooth REST API integrations.Collaborating with designers and backend teams to deliver user‑friendly, scalable solutions.Ensuring performance, accessibility, and maintainability through modern frontend practices and code reviews.",
   },
   {
     role: "Web Developer Intern",
-    company: "Delta 360 Services PVT LTD ",
+    company: "ONSPEC TECHNOLOGY SOLUTIONS PVT LTD",
     duration: "March 2023 - Aug 2023",
     description:
       "Developed landing pages, portfolio sites, and small web apps using HTML, CSS, JavaScript, and Bootstrap. Focused on performance optimization, responsive layouts, and mobile‑first design principles to ensure accessibility across devices. Collaborated with senior developers to refine UI components and integrate interactive features. Assisted in debugging and improving usability while maintaining consistency with brand guidelines. Gained hands‑on experience with version control (Git) and agile development practices, contributing to sprint deliverables.",

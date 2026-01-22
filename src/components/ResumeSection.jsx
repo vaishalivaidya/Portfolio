@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../assets/Vaishali_Resume.pdf";
+import resumeFile from "../assets/Vaishali_Resume1.pdf";
 
 
 const ResumeSection = () => {

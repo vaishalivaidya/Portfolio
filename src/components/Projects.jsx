@@ -10,12 +10,12 @@ const projects = [
     github: "https://github.com/vaishalivaidya/Portfolio",
   },
   {
-    title: "Task Manager App",
+    title: "Story App",
     description:
-      "A simple task management app with CRUD features, filters, and localStorage persistence.",
-    tech: ["React", "JavaScript", "Bootstrap"],
+      "This is story App and here we can watch videoes and audio story too",
+    tech: ["React", "JavaScript", "styesheet"],
     demo: "#",
-    github: "#",
+    github: "https://github.com/vaishalivaidya/StoryApp.git",
   },
   {
     title: "Landing Page Design",
