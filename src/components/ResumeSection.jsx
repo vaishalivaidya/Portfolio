@@ -1,7 +1,6 @@
 import React from "react";
 // import resumeFile from "../assets/Vaishali_Vaidya_Resume.pdf";
-import resumeFile from "../assets/Frontend_Developer_Vaishali_Resume.pdf";
-
+import resumeFile from "../assets/Vaishali_Mahanta_vaidya_Resume.pdf";
 
 const ResumeSection = () => {
   return (
