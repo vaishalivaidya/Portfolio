@@ -3,15 +3,24 @@ import React from "react";
 const experience = [
   {
     role: "Frontend Developer",
-    company: "Delta 360 Services ",
-    duration: "Jan 2023 - Present",
+    company: "Priacc Innovation Pvt. Ltd.",
+    duration: "April 2025 - June 2025",
+    description:
+      "Leading frontend development for a cutting‑edge SaaS platform using React and TypeScript. Collaborating with cross‑functional teams to design and implement user‑centric features that enhance engagement and retention. Optimizing performance and accessibility while maintaining a consistent brand experience across devices. Mentoring junior developers and contributing to code reviews to uphold high standards of quality and maintainability.",
+
+  }
+  ,
+  {
+    role: "Fullstack Developer",
+    company: "Swift Solution Pvt. Ltd.",
+    duration: "Sep 2023 - March 2025",
     description:
       "Building responsive React applications with reusable UI components and smooth REST API integrations.Collaborating with designers and backend teams to deliver user‑friendly, scalable solutions.Ensuring performance, accessibility, and maintainability through modern frontend practices and code reviews.",
   },
   {
-    role: "Web Developer Intern",
-    company: "Delta 360 Services",
-    duration: "March 2023 - Aug 2023",
+    role: "Frontend Developer Intern",
+    company: "Swift Solution Pvt. Ltd.",
+    duration: "sep 2022 - Aug 2023",
     description:
       "Developed landing pages, portfolio sites, and small web apps using HTML, CSS, JavaScript, and Bootstrap. Focused on performance optimization, responsive layouts, and mobile‑first design principles to ensure accessibility across devices. Collaborated with senior developers to refine UI components and integrate interactive features. Assisted in debugging and improving usability while maintaining consistency with brand guidelines. Gained hands‑on experience with version control (Git) and agile development practices, contributing to sprint deliverables.",
   },
