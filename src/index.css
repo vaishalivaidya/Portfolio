@@ -572,5 +572,25 @@ footer {
     display: block;
     text-align: left;      /* or center if you prefer */
   }
+
+  /* 🔽 Fix timeline on mobile */
+  .timeline {
+    padding-left: 0;
+    border-left: none;
+    padding-top: 0.5rem;
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+
+  .timeline-item::before {
+    display: none;
+  }
+
+  .timeline-item.card {
+    margin-left: 0;
+  }
 }
 
