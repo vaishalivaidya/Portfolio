@@ -2,6 +2,14 @@ import React from "react";
 
 const experience = [
   {
+    role: "Fullstack Developer",
+    company: "Matfly Solutions Pvt. Ltd.",
+    duration: "June 2025 - Present",
+    description:
+      "Leading frontend development for a cutting‑edge SaaS platform using React and TypeScript. Collaborating with cross‑functional teams to design and implement user‑centric features that enhance engagement and retention. Optimizing performance and accessibility while maintaining a consistent brand experience across devices. Mentoring junior developers and contributing to code reviews to uphold high standards of quality and maintainability.",
+
+  },
+  {
     role: "Frontend Developer",
     company: "Priacc Innovation Pvt. Ltd.",
     duration: "April 2025 - May 2025",
